@@ -60,7 +60,7 @@ const Carousel: React.FC<CarouselProps> = ({
 
   useEffect(() => {
     scrollTo(position);
-  }, [position]);
+  }, [position, animationDuration, itemWidth]);
 
   return (
     <div
